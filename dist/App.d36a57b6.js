@@ -25043,8 +25043,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 var petfinder = (0, _petfinderClient.default)({
-  key: "1f5ff824cca3c8c17fb7a6a486a58da1",
-  secret: "ebb1fd44ecd0e2b3d564ad0d186fd0a3"
+  key: undefined,
+  secret: undefined
 });
 
 var Results =
@@ -25334,8 +25334,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 var petfinder = (0, _petfinderClient.default)({
-  key: "1f5ff824cca3c8c17fb7a6a486a58da1",
-  secret: "ebb1fd44ecd0e2b3d564ad0d186fd0a3"
+  key: undefined,
+  secret: undefined
 });
 
 var Details =
@@ -25466,8 +25466,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 var petfinder = (0, _petfinderClient.default)({
-  key: "1f5ff824cca3c8c17fb7a6a486a58da1",
-  secret: "ebb1fd44ecd0e2b3d564ad0d186fd0a3"
+  key: undefined,
+  secret: undefined
 });
 
 var SearchParams =
@@ -25674,7 +25674,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53650" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50735" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
