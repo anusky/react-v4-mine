@@ -1,0 +1,38 @@
+{
+  "name": "mine-react-v4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"src/**/*.{js,jsx,css,json}\" --write",
+    "format:check": "prettier --list-different \"src/**/*.{js,jsx,css,json}\" --write",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "lint:debug": "eslint **/*.{js,jsx} --debug",
+    "lint:fix": "eslint **/*.{js,jsx} --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.3.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "parcel-bundler": "^1.9.7",
+    "prettier": "^1.14.2"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.5.2",
+    "petfinder-client": "^0.0.3",
+    "@reach/router": "^1.1.1"
+  }
+}
